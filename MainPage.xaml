@@ -15,7 +15,7 @@
         <Label x:Name="totalOutput" Text="0.00" />
 
         <Label Text="Tip Percentage" VerticalOptions="End" HorizontalOptions="Start" />
-        <Label x:Name="tipPercent" Text="15%" />
+        <Label x:Name="tipPercent" VerticalOptions="End" HorizontalOptions="End" Text="15%" />
         <Slider x:Name="tipPercentSlider" Grid.ColumnSpan="2" Minimum="0" Maximum="100" Value="15" />
 
         <Button Text="15%" Clicked="OnNormalTip" />
