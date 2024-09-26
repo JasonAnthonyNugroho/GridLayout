@@ -4,11 +4,9 @@
              xmlns:local="clr-namespace:TipCalculator"
              x:Class="TipCalculator.MainPage">
 
-    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto"
-      ColumnDefinitions="*, *"
-      Padding="40">
-        <Label Text="Bill" />
-        <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric" />
+    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto" ColumnDefinitions="*, *" Padding="40">
+        <Label Text="Bill" Grid.Row="0" Grid.Column="0"/>
+        <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric" Grid.Row="0" Grid.Column="1"/>
 
         <Label Text="Tip"   />
         <Label x:Name="tipOutput" Text="0.00" />
